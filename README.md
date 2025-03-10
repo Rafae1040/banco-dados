@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-Este projeto visa demonstrar o uso de transações no MySQL, o desenvolvimento de uma procedure com controle de transações e o processo de backup e recuperação de bancos de dados utilizando o mysqldump.
+### Este projeto visa demonstrar o uso de transações no MySQL, o desenvolvimento de uma procedure com controle de transações e o processo de backup e recuperação de bancos de dados utilizando o mysqldump.
 
 ## 🛠️ Estrutura do Projeto
 
