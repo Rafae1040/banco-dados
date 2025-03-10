@@ -8,7 +8,7 @@ Este projeto visa demonstrar o uso de transações no MySQL, o desenvolvimento d
 
 O projeto é dividido em três partes principais:
 
-1️⃣ 🔄 Transações Simples
+### 1️⃣ 🔄 Transações Simples
 
 Descrição: Nesta etapa, são realizadas transações sem o uso de procedures.
 
@@ -29,7 +29,7 @@ COMMIT;
 -- ROLLBACK;
 ```
 
-2️⃣ 🚦 Transações com Procedure
+### 2️⃣ 🚦 Transações com Procedure
 
 Descrição: Esta etapa envolve a criação de uma procedure com controle de transações e tratamento de erros.
 
@@ -60,7 +60,7 @@ DELIMITER ;
 CALL AtualizaPrecoEletronicos();
 ```
 
-3️⃣ 💾 Backup e Recovery
+### 3️⃣ 💾 Backup e Recovery
 
 Descrição: Realização do backup e recuperação do banco de dados utilizando o mysqldump.
 
@@ -79,7 +79,7 @@ mysqldump -u usuario -p --routines --events e_commerce > backup_completo.sql
 ```
 
 
-📝 Conclusão
+## 📝 Conclusão
 
 Este projeto abrange desde o uso básico de transações até o controle avançado com procedures e a segurança oferecida pelo backup e recovery do banco de dados. 
 É uma base sólida para qualquer aplicação que necessite de integridade e resiliência de dados.
